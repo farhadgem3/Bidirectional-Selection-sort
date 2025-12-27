@@ -47,7 +47,7 @@ int main() {
     srand((unsigned)time(nullptr));
 
     // اندازه‌های مختلف برای تست
-    int sizes[] = {1000, 2000, 5000}; // می‌تونی این لیست رو تغییر بدی
+    int sizes[] = {10000, 20000, 50000}; // می‌تونی این لیست رو تغییر بدی
     for (int sidx = 0; sidx < (int)(sizeof(sizes)/sizeof(sizes[0])); ++sidx) {
         int n = sizes[sidx];
         // ایجاد آرایهٔ دادهٔ اصلی

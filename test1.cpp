@@ -59,7 +59,7 @@ void bidirectionalSelectionSort(int a[], int n, long long &innerIterations) {
 
 int main() {
     // نمونهٔ آزمایشی
-    int arr1[] = {64, 25, 12, 22, 11, 90, 50};
+    int arr1[] = {-10, 2, 5, 3, 7, 4, 6, 9, 8, 1, 0, -5, -3, -1, -7, -4, -6, -2, -8, -9};
     int n = sizeof(arr1) / sizeof(arr1[0]);
 
     // کپی برای هر الگوریتم (تا آرایهٔ اولیه تغییر نکند)
